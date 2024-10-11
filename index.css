@@ -6,24 +6,47 @@ body {
     color: white;
     font-size: larger;
     background-image: url(round\ the\ corner-corner.png);
-    background-size: 100vw;
+    background-repeat: no-repeat;
+    background-size: 2000px;
+    background-position: center;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.hero{
+    padding-top: 100px;
 }
 
 div > img {
     width: 100px;
     border-radius: 100%;
+    border: 3px solid salmon;
+    filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+}
+
+.name {
+    font-weight: bold;
+    filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
 }
 
 .buttons {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 10px;
+    padding-top: 50px;
     gap: 10px;
 }
 
 .socials {
     display: flex;
     gap: 10px;
+}
+
+.logo {
+    border: none;
+    border-radius: 0px;
+    width: 50px;
+    padding-top: 50px;
+    filter: invert(100%) sepia(95%) saturate(0%) hue-rotate(109deg) brightness(105%) contrast(105%);
 }
 
