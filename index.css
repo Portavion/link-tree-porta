@@ -3,7 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white;
+    color:white;
     font-size: larger;
     background-image: url(round\ the\ corner-corner.png);
     background-repeat: no-repeat;
