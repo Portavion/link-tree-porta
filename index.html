@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <div id="vanta"></div>
     <div class="hero">
         <img src="portavion-portrait.jpg" alt="Portavion Photo">
         <p class="name">@portavion</p>
@@ -25,4 +26,29 @@
         <div ><img class="logo" src="bandcamp-svgrepo-com.svg" alt="Bandcamp"></div>
     </div>
 </body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        VANTA.BIRDS({
+            el: "#vanta",
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            birdSize: 0.90,
+            wingSpan: 16.00,
+            speedLimit: 3.00,
+            separation: 32.00,
+            alignment: 26.00,
+            quantity: 4.00,
+            backgroundAlpha: 0.0
+        })
+    });
+
+</script>
+
 </html>
