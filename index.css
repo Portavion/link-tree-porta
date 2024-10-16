@@ -29,14 +29,6 @@ div > img {
     filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
 }
 
-.buttons {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 50px;
-    gap: 10px;
-}
-
 .socials {
     display: flex;
     gap: 10px;
@@ -48,5 +40,45 @@ div > img {
     width: 50px;
     padding-top: 50px;
     filter: invert(100%) sepia(95%) saturate(0%) hue-rotate(109deg) brightness(105%) contrast(105%);
+}
+
+.logo {
+    transition-duration: 0.3s;
+}
+
+.logo:hover {
+    filter: invert(100%) sepia(95%) saturate(0%) hue-rotate(109deg) brightness(0%) contrast(105%);
+}
+
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    gap: 50px;
+}
+
+button {
+    background-color: #8abaf4;
+    font-size: 24px;
+    color: white;
+
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 10px;
+
+
+    filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+
+}
+
+button {
+    transition-duration: 0.3s;
+}
+
+button:hover {
+    background-color: pink;
+    color: black;
 }
 
